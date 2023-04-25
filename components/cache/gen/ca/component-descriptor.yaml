@@ -4,7 +4,7 @@ metadata:
   name: github.com/sidhishruti22/cache
   provider:
     name: sidhishruti22
-  version: v1.0.4
+  version: v1.0.1
 repositoryContexts: []
 spec:
   resources:
@@ -15,7 +15,7 @@ spec:
     name: config
     relation: local
     type: configdata.ocm.software
-    version: v1.0.4
+    version: v1.0.1
   - access:
       imageReference: redis:6.0.4
       type: ociArtifact
@@ -24,10 +24,10 @@ spec:
     type: ociImage
     version: 6.2.1
   - access:
-      localReference: sha256.12dcc1b1783ec21176117b8b4c8a3a1fe03f74453d90619219d3857ec05b4a24
+      localReference: sha256.aa8798f844ab10892e209a666557efb850c1eddd418aaf433367fa5909af491d
       mediaType: application/x-tgz
       type: localBlob
     name: manifests
     relation: local
     type: kustomize.ocm.fluxcd.io
-    version: v1.0.4
+    version: v1.0.1
