@@ -7,7 +7,7 @@ spec:
   interval: 10m0s
   prune: true
   componentVersionRef:
-    name: podifydcom
+    name: podify
     namespace: ocm-system
   resourceSelector:
     skipRoot: true
